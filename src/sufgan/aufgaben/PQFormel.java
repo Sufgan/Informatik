@@ -18,7 +18,8 @@ public class PQFormel {
 		
 		double dis = Math.sqrt(Math.pow(b, 2) - 4 * a * c); 
 		
-		System.out.printf("x1:%7.2f\nx2:%7.2f", (- b + dis) / (2 * a), (- b - dis) / (2 * a));
+		if (dis >= 0) System.out.printf("x1:%7.2f\nx2:%7.2f", (- b + dis) / (2 * a), (- b - dis) / (2 * a));
+		else System.out.println("Es gibt keine reelle Rechnung!");
 
 	}
 
