@@ -15,8 +15,7 @@ public class DVD {
 		if (DVDCount > 2) DVDKosten -= 0.50;
 		if (DVDCount > 5) DVDKosten -= 0.20;
 		
-		System.out.printf("Zahlen bitte %.2f", DVDKosten * DVDCount);
-
+		System.out.printf("Zahlen Sie bitte %.2f", DVDKosten * DVDCount);	
 	}
 
 }
