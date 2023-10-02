@@ -7,6 +7,7 @@ public class SortedNamen {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
+		
 //		String namen[] = new String[3];
 //		for (int i = 0; i < namen.length; i++) namen[i] = scanner.nextLine();
 //		
@@ -30,24 +31,21 @@ public class SortedNamen {
 		name3 = scanner.nextLine();
 		
 		if (name1.compareTo(name2) > 0) {
-			System.out.println(1);
 			hilfe = name2;
 			name2 = name1;
 			name1 = hilfe;
 		}
 		
 		if (name2.compareTo(name3) > 0) {
-			System.out.println(2);
 			hilfe = name2;
 			name2 = name3;
 			name3 = hilfe;
 		}
 		
-		if (name1.compareTo(name3) > 0) {
-			System.out.println(3);
+		if (name1.compareTo(name2) > 0) {
 			hilfe = name1;
-			name1 = name3;
-			name3 = hilfe;
+			name1 = name2;
+			name2 = hilfe;
 		}
 		
 		System.out.printf("%s\n%s\n%s", name1, name2, name3);
