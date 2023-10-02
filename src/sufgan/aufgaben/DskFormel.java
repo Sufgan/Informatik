@@ -2,7 +2,7 @@ package sufgan.aufgaben;
 
 import java.util.Scanner;
 
-public class DIsFormel {
+public class DskFormel {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
