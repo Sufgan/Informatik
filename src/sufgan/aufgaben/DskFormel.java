@@ -6,15 +6,15 @@ public class DskFormel {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		int a, b, c;
+		double a, b, c;
 		
 		System.out.println("Geben Sie biite A, B und C Argumente");
 		System.out.print("A: ");
-		a = scanner.nextInt();
+		a = scanner.nextDouble();
 		System.out.print("B: ");
-		b = scanner.nextInt();
+		b = scanner.nextDouble();
 		System.out.print("C: ");
-		c = scanner.nextInt();
+		c = scanner.nextDouble();
 		
 		double dis = Math.sqrt(Math.pow(b, 2) - 4 * a * c); 
 		
