@@ -1,4 +1,4 @@
-package sufgan.aufgaben;
+package sufgan.aufgaben.A_Semester;
 
 
 import java.util.Scanner;
