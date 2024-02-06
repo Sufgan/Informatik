@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Spiel_Umgekehrt {
 	public static void main(String[] args) {
-		int command = -1, begin = 100, end = 1001, step = 1;
+		int begin = 100, end = 1001, step = 1;
 		System.out.println("Waehlen biite eine Zahl von 100 bis 1000\n"
 				+ "und schreiben folgende Commands:\n"
 				+ "= - das ist Ihre Zahl\n"
@@ -14,7 +14,7 @@ public class Spiel_Umgekehrt {
 		
 		prog: while (true) {
 			System.out.printf("%d: Ist Ihre Zahl %d?\n", step++, (end - begin) / 2 + begin);
-			switch (command = new Scanner(System.in).next().toCharArray()[0]) {
+			switch (new Scanner(System.in).next().toCharArray()[0]) {
 			case '>': begin += (end - begin) / 2; break;
 			case '<': end -= (end - begin) / 2; break;
 			case '=': break prog;

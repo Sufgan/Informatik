@@ -16,6 +16,7 @@ public class DVD {
 		if (DVDCount > 5) DVDKosten -= 0.20;
 		
 		System.out.printf("Zahlen Sie bitte %.2f", DVDKosten * DVDCount);	
+		scanner.close();
 	}
 
 }

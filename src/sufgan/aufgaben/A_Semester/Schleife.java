@@ -25,6 +25,8 @@ public class Schleife {
 			System.out.printf("* %-21s *\n", a3); // Oder System.out.printf("* %-21s *\n".repeat(3), a1, a2, a3);
 			System.out.printf("*".repeat(25) + "\n\n");
 		}		
+		
+		scanner.close();
 	}
 }
 

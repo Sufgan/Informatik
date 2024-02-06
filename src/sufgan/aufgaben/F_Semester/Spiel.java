@@ -12,7 +12,7 @@ public class Spiel {
 				+ "Sie mussen eigene Zahlen schreiben und ich\n"
 				+ "antworte kleiner oder großer sind sie.\n\n"
 				+ "Sie haben nur 11 Versuchen!\n" 
-				+ line, step);
+				+ line, step);	
 		while ((ans = new Scanner(System.in).nextInt()) != zahl && step++ != 11) 
 			System.out.printf("x "
 					+ (ans > zahl ? '<' : '>')

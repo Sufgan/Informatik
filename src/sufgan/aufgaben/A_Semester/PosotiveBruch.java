@@ -8,7 +8,7 @@ public class PosotiveBruch {
 		Scanner scanner = new Scanner(System.in);
 		int a = scanner.nextInt(), b = scanner.nextInt();
 		System.out.printf("%d\t%d", a / b, a % b);
-		
-		
+		scanner.close();
 	}
+	
 }

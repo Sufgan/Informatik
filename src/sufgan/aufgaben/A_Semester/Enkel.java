@@ -15,6 +15,7 @@ public class Enkel {
 			sum = sum * 1.0675 + 1000;
 		
 		System.out.printf("Summe: %.2f", sum);
+		scanner.close();
 	}
 
 }

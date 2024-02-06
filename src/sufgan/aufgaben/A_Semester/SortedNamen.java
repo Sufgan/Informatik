@@ -1,6 +1,5 @@
 package sufgan.aufgaben.A_Semester;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SortedNamen {
@@ -48,6 +47,7 @@ public class SortedNamen {
 			name2 = hilfe;
 		}
 		
+		scanner.close();
 		System.out.printf("%s\n%s\n%s", name1, name2, name3);
 	}
 	

@@ -18,7 +18,8 @@ public class Gaspreis {
 			preis = 13.5 + verbrauch * 0.1732;
 		}
 		
-		System.out.println("Verbrauch ist: " + verbrauch);
+		System.out.println("Preis ist: " + preis);
+		scanner.close();
 	}
 	
 }

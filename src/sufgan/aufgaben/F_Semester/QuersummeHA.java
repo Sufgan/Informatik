@@ -1,7 +1,5 @@
 package sufgan.aufgaben.F_Semester;
 
-import java.util.Scanner;
-
 public class QuersummeHA {
 
 	public static void main(String[] args) {
@@ -12,7 +10,8 @@ public class QuersummeHA {
 			// 1 метод подсчета
 			sum = ("" + zahl).chars().reduce(0, (a, b) -> (a + b - '0'));
 			// 2
-//			int z2 = zahl, sum = z2 % 10; // можно вместо z2 исп. zahl, но тогда отображение переделывать надо
+//			int z2 = zahl;
+//			sum = z2 % 10; // можно вместо z2 исп. zahl, но тогда отображение переделывать надо
 //			while ((z2 /= 10) != 0) sum += z2 % 10;
 			// 3
 //			int sum = 0;

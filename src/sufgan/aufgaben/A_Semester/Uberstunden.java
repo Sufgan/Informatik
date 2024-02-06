@@ -27,7 +27,7 @@ public class Uberstunden {
 		}
 		
 		System.out.println("Ihr Bruttolohn ist: " + bruttolohn);
-
+		scanner.close();
 	}
 
 }

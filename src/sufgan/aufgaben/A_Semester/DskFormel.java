@@ -20,6 +20,7 @@ public class DskFormel {
 		
 		if (dis >= 0) System.out.printf("x1:%7.2f\nx2:%7.2f", (- b + dis) / (2 * a), (- b - dis) / (2 * a));
 		else System.out.println("Es gibt keine reelle Rechnung!");
+		scanner.close();
 
 	}
 
