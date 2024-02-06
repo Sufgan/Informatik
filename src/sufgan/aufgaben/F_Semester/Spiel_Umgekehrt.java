@@ -21,7 +21,7 @@ public class Spiel_Umgekehrt {
 			}
 //			System.out.printf("%d\t%d\n", begin, end);
 		} 
-		System.out.println("Ha-ha, easy");
+		System.out.println("Лохб загадай другое");
 		
 	}
 }
