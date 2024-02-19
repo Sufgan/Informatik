@@ -19,7 +19,8 @@ public class Aufgabe_1 {
 				c++;
 			}
 		}
-		System.out.println("Zahlen insgesammt: " + c 
+		System.out.println(
+				"Zahlen insgesammt: " + c 
 				+ "\nMittelwert: " + (float) sum / c);
 	}
 	

@@ -9,8 +9,8 @@ public class Quadrat {
 		int a = new Scanner(System.in).nextInt();
 		
 		System.out.println(
-				"--".repeat(a) + 
-				("\n-" + "  ".repeat(a-1) + "-").repeat(a) + "\n" +
-				"--".repeat(a));
+				"**".repeat(a) + 
+				("\n* " + "  ".repeat(a-2) + " *").repeat(a) + "\n" +
+				"**".repeat(a));
 	}
 }
