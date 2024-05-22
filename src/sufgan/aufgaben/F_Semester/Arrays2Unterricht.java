@@ -10,7 +10,6 @@ public class Arrays2Unterricht {
 			for (String stadt2 : stadts2)
 				if (stadt1.equals(stadt2))
 					System.out.println(stadt1 + " liegt in zwei Arrays");
-		
 	}
 
 }
